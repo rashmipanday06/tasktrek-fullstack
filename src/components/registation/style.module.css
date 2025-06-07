@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.inputWrapper{
+    border-bottom: 1px solid;
+    height: 26px;
+    width:70%;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: gray;
+}
+
+.groupWrapper{
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    margin-left: 19%;
+}
+.iconWrapper{
+    display: flex;
+    gap: 4px;
+}
+.imageWrapper{
+        height: 357px;
+}
+.conatinerWrapper{
+        display: grid;
+    grid-template-columns: 50% 50%;
+}
+.leftImageWrapper{
+    width: 50%;
+}
+.btn{
+    width: 80px;
+    height: 40px;
+    background: #1487b6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+        font-size: 14px;
+    font-weight: 400;
+
+}
