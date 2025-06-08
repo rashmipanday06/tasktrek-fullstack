@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons/faEnvelope';
 import { faUser } from '@fortawesome/free-solid-svg-icons/faUser';
 import { faLock } from '@fortawesome/free-solid-svg-icons/faLock';
-import checklist from '../../assets/image.png'
+import checklist from '../../../assets/image.png'
 
 const Registation = () => {
   return (
