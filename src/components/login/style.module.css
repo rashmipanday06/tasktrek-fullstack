@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.inputWrapper{
+    border-bottom: 1px solid;
+    height: 26px;
+    width:70%;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: gray;
+}
+.conatinerWrapper{
+margin: auto;
+width: 40%;
+padding: 10px;
+}
+.btnWrapper{
+margin-top:20px
+}
+.headingWrapper{
+       display: block;
+    margin: 0 auto;
+}
+.groupWrapper{
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    margin-left: 19%;
+}
+.iconWrapper{
+    display: flex;
+    gap: 4px;
+}
+.btn{
+    width: 80px;
+    height: 40px;
+    background: #1487b6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+        font-size: 14px;
+    font-weight: 400;
+        display: block;
+    margin: 0 auto;
+
+}
