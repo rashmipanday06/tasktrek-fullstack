@@ -43,3 +43,13 @@
     font-weight: 400;
 
 }
+.btnWrapper, .headingWrapper{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 40%;
+
+}
+.headingWrapper{
+     left: 50%
+}
