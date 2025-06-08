@@ -11,7 +11,7 @@ const Registation = () => {
   return (
     <div className={style.conatinerWrapper}>
   <div className={style.container}>
-<h2>Sign Up</h2>
+<h2 className={style.headingWrapper}>Sign Up</h2>
 <div className={style.groupWrapper}> 
   <span className={style.iconWrapper}><FontAwesomeIcon icon={faUser} /><span>User Name</span></span>
 
