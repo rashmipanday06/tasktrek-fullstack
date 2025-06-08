@@ -1,12 +1,15 @@
 import { useState } from 'react'
-import './App.css'
-import Registation from './components/registation'
+
+import Registation from './components/pages/registation'
+import Login from './components/pages/login'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-<Registation/>
+    <>{/* <Registation/> */}
+<Login/></>
+
   )
 }
 
