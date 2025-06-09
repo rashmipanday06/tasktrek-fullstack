@@ -1,0 +1,9 @@
+.iconWrapper{
+    width: 58em;
+    height: 31em;
+}
+.container{
+    display: grid
+;
+    grid-template-columns: 28em 71em;
+}
