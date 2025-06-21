@@ -1,9 +1,51 @@
 .iconWrapper{
+    position: relative;
     width: 58em;
     height: 31em;
+    top: 40px;
+
 }
 .container{
-    display: grid
-;
-    grid-template-columns: 28em 71em;
+display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    align-items: center;
+    left: 4%;
+    right: 4%;
+}
+.containerWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        align-items: center;
+}
+.heroHeading{
+  
+  font-size: 48px;         /* large enough for impact */
+  font-weight: 700;        /* bold */
+  color: #1f2937;          /* dark gray for contrast */
+  line-height: 1.2;
+  text-align: center;
+  margin: 40px 0;
+}
+.subTitle{
+        font-size: 18px;
+    color: #374151;
+    text-align: center;
+    margin-top: 10px;
+}
+.btn{
+     background-color: #2563eb;
+  color: #ffffff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn:hover{
+     background-color: #1d4ed8;
 }
