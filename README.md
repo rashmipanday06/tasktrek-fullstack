@@ -25,10 +25,6 @@ A simple and responsive **Register Page UI** built with **React** and **Tailwind
 ## 📝 Login Page
 ![image](https://github.com/user-attachments/assets/b5e28880-8b5c-4464-a20f-e1804add632e)
 
-
-![image](https://github.com/user-attachments/assets/6b1f216e-1b90-4095-a5c1-903516a4c749)
-
-
 ## 🏠 Home Page Preview
 
 ![image](https://github.com/user-attachments/assets/56642935-2c5e-4549-a26a-d4a48e47cfdb)
