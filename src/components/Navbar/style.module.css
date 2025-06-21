@@ -1,0 +1,24 @@
+.logoWrapper{
+    height: 30px;
+}
+.main{
+    background: #f3f4f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    top: 0px;
+    position: sticky;
+    
+}
+.navWrapper{
+    display: flex;
+    gap: 40px;
+    position: absolute;
+    right: 4%;
+}
+.logoMainWrapper{
+    position: relative;
+    left: 4%;
+}
