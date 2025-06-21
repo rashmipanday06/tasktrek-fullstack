@@ -41,13 +41,14 @@ const Registation = () => {
  </span>
 <input type="text"  className={style.inputWrapper}/>
 </div>
+<div className={style.btnWrapper}>
+<button className={style.btn}>Register</button>
+</div>
 </div>
 <div className={style.leftImageWrapper}>
   <img src={checklist} alt="Logo" className={style.imageWrapper}/>
 </div>
-<div className={style.btnWrapper}>
-<button className={style.btn}>Register</button>
-</div>
+
     </div>
   )
 }
