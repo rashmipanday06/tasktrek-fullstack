@@ -19,10 +19,13 @@ A simple and responsive **Register Page UI** built with **React** and **Tailwind
 - Tailwind CSS
 - FontAwesome icons
 
-## Screenshot
+## 📝 Registration Page
 ![image](https://github.com/user-attachments/assets/082af6aa-1308-43e8-82b3-cb92f5f89b69)
 
-## 📝 Registration Page
+## 📝 Login Page
+![image](https://github.com/user-attachments/assets/b5e28880-8b5c-4464-a20f-e1804add632e)
+
+
 ![image](https://github.com/user-attachments/assets/6b1f216e-1b90-4095-a5c1-903516a4c749)
 
 
