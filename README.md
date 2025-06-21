@@ -16,7 +16,7 @@ A simple and responsive **Register Page UI** built with **React** and **Tailwind
 ## Tech Stack
 
 - React (Vite)
-- Tailwind CSS
+- CSS Core
 - FontAwesome icons
 
 ## 📝 Registration Page
