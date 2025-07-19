@@ -9,9 +9,11 @@ import checklist from '../../../assets/image.png'
 import requestUrls from '../../../requestUrl';
 import axios from 'axios';
 import { useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { loginUser } from '../../../store/feature/loginSlice';
 
 const Registation = () => {
-
+const dispatch= useDispatch();
   const[userName, setUserName]=useState();
   const[email, setEmail]=useState();
   const[password, setPassword]=useState();
@@ -41,6 +43,7 @@ const submit = () => {
   .then((resp) => {
     console.log("Registration Success:", resp.data);
     // Optional: alert user or redirect
+    dispatch(loginUser({ username: userName, isLoggedIn: true }));
   })
   .catch((error) => {
     if (error.response) {

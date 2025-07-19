@@ -1,8 +1,23 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import style from './style.module.css'
+import { useState } from 'react'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons/faEnvelope'
 import { faLock } from '@fortawesome/free-solid-svg-icons/faLock'
+import { useDispatch } from 'react-redux'
+import { loginUser } from '../../../store/feature/loginSlice'
 const Login = () => {
+
+  const dispatch=useDispatch()
+
+  const[userName, setUserName]=useState('')
+  const loginHandler=()=>{
+ dispatch(loginUser({ username: userName, isLoggedIn: true }));
+ setUserName('')
+  }
+const usernameHanlder = (e: any) => {
+  const name = e.target.value;
+  setUserName(name);
+};
   return (
 <div className={style.conatinerWrapper}>
  <div className={style.container}>
@@ -12,7 +27,7 @@ const Login = () => {
       <FontAwesomeIcon icon={faEnvelope} />
       <span>Email</span>
       </span>
-      <input type="text" className={style.inputWrapper}/>
+      <input type="text" className={style.inputWrapper} value={userName} onChange={usernameHanlder}/>
     </div>  
     
     <div className={style.groupWrapper}>
@@ -25,7 +40,7 @@ const Login = () => {
  </div>
 
  <div className={style.btnWrapper}>
-    <button className={style.btn}>Login</button>
+    <button className={style.btn} onClick={loginHandler}>Login</button>
  </div>
 </div>
   )
