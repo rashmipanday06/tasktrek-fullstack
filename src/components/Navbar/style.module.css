@@ -29,3 +29,11 @@
     font-size: 17px;
     font-weight: 600;
 }
+
+.activeNavLink{
+    background: none;
+    border: none;
+    color: blue;
+    font-size: 17px;
+    font-weight: 600;
+}
