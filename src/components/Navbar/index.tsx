@@ -14,9 +14,9 @@ const Navbar = () => {
            
         </div>
         <div className={style.navWrapper}>
-            <Link to='/'>Home</Link>
-            <Link to='/Login'>Login</Link>
-            <Link to='/registation'>Registation</Link>
+            <Link to='/'><button className={style.naTextvWrapper}>Home</button></Link>
+            <Link to='/Login'><button className={style.naTextvWrapper}>Login</button></Link>
+            <Link to='/registation'><button className={style.naTextvWrapper}>Registation</button></Link>
         </div>
 
     </nav>
