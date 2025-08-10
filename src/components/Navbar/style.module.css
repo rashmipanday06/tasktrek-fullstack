@@ -22,3 +22,10 @@
     position: relative;
     left: 4%;
 }
+.naTextvWrapper{
+        background: none;
+    border: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
